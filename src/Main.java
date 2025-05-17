@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Random;
 
 public class Main {
@@ -10,9 +12,9 @@ public class Main {
         int min = getMinMax(false, array);
         float avg = getAverage(array);
 
-        System.out.println(" Min" + min);
-        System.out.println("Max" + max);
-        System.out.println("Avg"+ avg);
+        System.out.println(" Min:" + min);
+        System.out.println("Max:" + max);
+        System.out.println("Avg:"+ avg);
     }
 
     public static int[] generate(int size) {
